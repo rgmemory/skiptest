@@ -1,0 +1,50 @@
+.inner-clock{
+  border: solid black 1px;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  display: inline-block;
+  padding: 20px;
+}
+
+.seconds{
+  height: 250px;
+  width: 10px;
+  border-radius: 2px;
+  line-height: 45px;
+  background: red;
+  position: relative;
+  left: 245px;
+  z-index: 3;
+  transform-origin: bottom;
+}
+
+.minutes{
+  height: 250px;
+  width: 15px;
+  border-radius: 2px;
+  line-height: 45px;
+  background: black;
+  position: relative;
+  left: 242.5px;
+  top: -250px;
+  z-index: 2;
+  transform: rotate(40deg);
+  transform-origin: bottom;
+}
+
+.hours{
+  height: 180px;
+  width: 20px;
+  border-radius: 2px;
+  background: black;
+  position: relative;
+  left: 240px;
+  top: -430px;
+  z-index: 1;
+  transform: rotate(60deg);
+  transform-origin: bottom;
+}
+
+
+
